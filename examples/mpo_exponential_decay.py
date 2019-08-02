@@ -75,7 +75,7 @@ class ExponentiallyDecayingHeisenberg(MPOModel):
         # The operators that appear in the Hamiltonian. Standard spin operators are
         # already defined for the spin 1/2 site, but it is also possible to add new
         # operators using the add_op method
-        Sz, Sp, Sm, Id = site.Sz, site.Sp, site.Sm, site.Id
+        #Sz, Sp, Sm, Id = site.Sz, site.Sp, site.Sm, site.Id
 
         # yapf:disable
         # The grid (list of lists) that defines the MPO. It is possible to define the
